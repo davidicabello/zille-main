@@ -1,4 +1,7 @@
-AOS.init();
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init()
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
