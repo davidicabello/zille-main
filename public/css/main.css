@@ -61,6 +61,18 @@ body {
     max-width: initial;
 }
 
+#navbar {
+    background: url(../images/navbackpeneg.png)no-repeat center center;
+    /* Center and scale the image nicely */
+    background-size: cover;
+    /* Needed to position the navbar */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
 .section_hero-main {
     position: relative;
     width: 100%;
@@ -74,7 +86,6 @@ body {
 .section_hero-main h1 {
     text-align: center;
     font-size: 5vh;
-    font-weight: bold;
     padding: 20px;
     z-index: 1;
     color: #f4f4f4;
